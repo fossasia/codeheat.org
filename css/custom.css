@@ -1,22 +1,22 @@
 .schedule a {
-  color: #E12B00;
+  /*color: #E12B00;*/
   border: none;
 }
 
 .schedule a:hover {
-  color: #E12B00;
+  /*color: #E12B00;*/
   text-decoration: underline;
   border: none;
 };
 
 .schedule a:active {
-  color: red;
+  /*color: red;*/
   text-decoration: underline;
   border: none;
 }
 
 .schedule a:visited {
-  color: #B82300;
+  /*color: #B82300;*/
   text-decoration: none;
   border: none;
 }
