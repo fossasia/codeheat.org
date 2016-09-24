@@ -4,14 +4,14 @@
 }
 
 .schedule a:hover {
-  /*color: #E12B00;
-  text-decoration: underline;*/
+  /*color: #E12B00;*/
+  text-decoration: none;
   border: none;
 };
 
 .schedule a:active {
   /*color: red;*/
-  text-decoration: underline;
+  text-decoration: none;
   border: none;
 }
 
