@@ -10,12 +10,12 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="160"
-   height="54.999996"
-   viewBox="0 0 160 55.000002"
+   height="160"
+   viewBox="0 0 160 160.00002"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r"
-   inkscape:export-filename="/home/makergirl/git/codeheat.org/img/codeheat-logo.png"
+   inkscape:export-filename="/home/makergirl/git/codeheat.org/img/code-logo.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
    sodipodi:docname="code.svg">
@@ -29,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="163.98813"
-     inkscape:cy="18.089609"
+     inkscape:cx="148.83575"
+     inkscape:cy="58.495697"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -60,14 +60,14 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(1264.1265,-351.55869)">
+     transform="translate(1264.1265,-246.55867)">
     <rect
        style="fill:#dcbe00;fill-opacity:1"
        id="rect4915"
        width="160.00002"
-       height="55.000004"
+       height="160.00002"
        x="-1264.1265"
-       y="351.55869" />
+       y="246.55867" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:187.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -81,21 +81,22 @@
          y="146.64792" /></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:187.5px;line-height:125%;font-family:'Mukti Narrow';-inkscape-font-specification:'Mukti Narrow';letter-spacing:0px;word-spacing:0px;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="-1268.0776"
-       y="392.93369"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:282.3770752px;line-height:125%;font-family:'Mukti Narrow';-inkscape-font-specification:'Mukti Narrow';letter-spacing:0px;word-spacing:0px;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.22590165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="-1776.8322"
+       y="252.7917"
        id="text4152"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       transform="scale(0.71763116,1.3934735)"><tspan
          sodipodi:role="line"
          id="tspan4154"
-         x="-1268.0776"
-         y="392.93369"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50.00000381px;font-family:FreeMono;-inkscape-font-specification:'FreeMono Bold';word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         dx="0 -6">[code<tspan
-   style="font-size:50.00000381px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="-1776.8322"
+         y="252.7917"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:75.30055237px;font-family:FreeMono;-inkscape-font-specification:'FreeMono Bold';word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.22590165;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         dx="0 -9.0360651">[code<tspan
+   style="font-size:75.30055237px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.22590165;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
    id="tspan4662"
-   dx="-6">]</tspan></tspan></text>
+   dx="-9.0360651">]</tspan></tspan></text>
   </g>
 </svg>
