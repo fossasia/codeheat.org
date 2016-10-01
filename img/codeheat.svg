@@ -9,18 +9,35 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="250"
-   height="50"
-   viewBox="0 0 250 50.000005"
+   width="280"
+   height="55"
+   viewBox="0 0 280 55.000006"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r"
-   inkscape:export-filename="/home/makergirl/git/codeheat.org/img/codeheat1.png"
-   inkscape:export-xdpi="72"
-   inkscape:export-ydpi="72"
+   inkscape:export-filename="/home/makergirl/git/codeheat.org/img/codeheat-logo.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
    sodipodi:docname="codeheat.svg">
   <defs
-     id="defs4" />
+     id="defs4">
+    <pattern
+       inkscape:stockid="Stripes 1:1"
+       id="Strips1_1"
+       patternTransform="translate(0,0) scale(10,10)"
+       height="1"
+       width="2"
+       patternUnits="userSpaceOnUse"
+       inkscape:collect="always">
+      <rect
+         id="rect5646"
+         height="2"
+         width="1"
+         y="-0.5"
+         x="0"
+         style="fill:black;stroke:none" />
+    </pattern>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -29,8 +46,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="139.92622"
-     inkscape:cy="9.3214883"
+     inkscape:cx="140.55995"
+     inkscape:cy="39.302823"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -60,7 +77,14 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(1266.6519,-354.05868)">
+     transform="translate(1266.6518,-351.55869)">
+    <rect
+       style="fill:#dcbe00;fill-opacity:1"
+       id="rect4915"
+       width="280.00003"
+       height="55.000004"
+       x="-1266.6519"
+       y="351.55869" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:187.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -74,18 +98,20 @@
          y="146.64792"></tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:187.5px;line-height:125%;font-family:'Mukti Narrow';-inkscape-font-specification:'Mukti Narrow';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-1259.3293"
-       y="388.85556"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:187.5px;line-height:125%;font-family:'Mukti Narrow';-inkscape-font-specification:'Mukti Narrow';letter-spacing:0px;word-spacing:0px;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="-1270.564"
+       y="392.93369"
        id="text4152"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan4154"
-         x="-1259.3293"
-         y="388.85556"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:41.25000381px;font-family:FreeMono;-inkscape-font-specification:'FreeMono Bold';word-spacing:0px"
+         x="-1270.564"
+         y="392.93369"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50.00000381px;font-family:FreeMono;-inkscape-font-specification:'FreeMono Bold';word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          dx="0 -6">[codehea<tspan
-   style="font-size:41.25000381px;word-spacing:0px"
+   style="font-size:50.00000381px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
    id="tspan4662"
    dx="0 -6">t]</tspan></tspan></text>
   </g>
