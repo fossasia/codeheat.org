@@ -751,7 +751,7 @@ nav .container {
   margin-bottom: 32px;
   left: 24px;
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 968px) {
   nav {
     max-height: 67px;
     overflow: hidden;
