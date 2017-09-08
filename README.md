@@ -4,7 +4,7 @@ In the heat of the code is a coding contest run by FOSSASIA, friends and partner
 
 Official website: http://codeheat.org
 
-Development Workflow
+Development Workflow:->
 
 Fixing issues
 
@@ -34,8 +34,4 @@ Once a PR is opened, try and complete it within 2 weeks, or at least stay active
 
 Step 4: Code Review
 
-Your code will be reviewed, in this sequence, by:
-
-Travis CI: by building and running tests. If there are failed tests, the build will be marked as a failure. You can consult the CI log to find which tests. Ensure that all tests pass before triggering another build.
-The CI log will also contain the command that will enable running the failed tests locally.
 Reviewer: A core team member will be assigned to the PR as its reviewer, who will approve your PR or he will suggest changes.
