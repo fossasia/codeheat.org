@@ -72,14 +72,14 @@ function parser(data) {
   var myDate = new Date();
   myDate = myDate.getTime();
   var difference = myDate-date; //it's in miliseconds
-  var difference = Math.round(difference/1000/3600/24);
-  parsed += "<span class='dateTweeted'>Tweeted "+difference+" Days Ago</div>";
-  
+  var tweetAge = Math.round(difference/1000/3600) > 24 ? Math.round(difference/1000/3600/24) + " days ago" : Math.round(difference/1000/3600) + " hours ago";
+  parsed += "<span class='dateTweeted'>Tweeted "+tweetAge+"</div>";
+
 	document.getElementsByClassName("tweets-feed")[0].innerHTML =  parsed;
 	document.getElementsByClassName("tweets-feed")[0].style.opacity =  1;
 }
 
-/* Taken from https://github.com/fossasia/fossasia-loklak-webtweets/blob/gh-pages/js/loklak-fetcher.js 
+/* Taken from https://github.com/fossasia/fossasia-loklak-webtweets/blob/gh-pages/js/loklak-fetcher.js
 See documentation at https://github.com/fossasia/fossasia-loklak-webtweets
 */
 
@@ -107,15 +107,14 @@ window.onload = (function() {
         throw new Error('[LOKLAK-FETCHER] No callback provided');
       }
 
-      var settings = [ 'count', 'source', 'fields', 'limit', 'tzOffset',
-        'minified' ];  // Field names for all the possible parameters
-      var defaults = [ 100, 'cache', '', '', 0, true ];  // Default values
+      var settings = [ 'count', 'source', 'tzOffset', 'minified' ];  // Field names for all the possible parameters
+      var defaults = [ 100, 'all', new Date().getTimezoneOffset(), true ];  // Default values
 
       // Check if no options have been provided
       if(typeof options === 'undefined') {
         var options = {}; // Create 'options' to avoid ReferenceErrors later
       }
-      
+      var query = "";
       //Check if there are any data elements set
       var tweetsEl = document.getElementsByClassName("tweets-feed")[0];
       var dataset = tweetsEl.dataset;
@@ -124,9 +123,9 @@ window.onload = (function() {
       }
 
       if(dataset.query) {
-        var query = dataset.query.replace(/\s/gi, '%20').replace(/#/gi, '%23'); //replace spaces and hashtags in URL
+        query = dataset.query.replace(/\s/gi, '%20').replace(/#/gi, '%23'); //replace spaces and hashtags in URL
       } else {
-        query = '';
+        query = "";
       }
 
       if(dataset.start) {
@@ -138,26 +137,26 @@ window.onload = (function() {
       }
 
       if(dataset.from) {
-        query = query + "%20from:" + dataset.from;
+        var sources = dataset.from.split(',');
+	sources.forEach(source => {
+	  query = query + "from:" + source + "%20OR%20"
+	})
+	query = query.substring(0, query.length - 8);
       }
-    
-      
 
       // Write unset options as their default
       for(index in settings) {
         if(options[settings[index]] === undefined) {
           options[settings[index]] = defaults[index];
-        } 
+        }
       }
-      
+
       // Create the URL with all the parameters
-      var url = 'http://loklak.org/api/search.json' +
+      var url = 'https://api.loklak.org/api/search.json' +
         '?callback=loklakFetcher.handleData' +
         '&q=' + query +
         '&count=' + options.count +
         '&source=' + options.source +
-        '&fields=' + options.fields +
-        '&limit=' + options.limit +
         '&timezoneOffset=' + options.tzOffset +
         '&minified=' + options.minified;
       // If the script element for JSONP already exists, remove it
