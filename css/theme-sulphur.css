@@ -1243,6 +1243,10 @@ nav .container {
 .speaker {
   position: relative;
   overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 300px;
 }
 .speaker,
 .topic {
@@ -1300,6 +1304,10 @@ nav .container {
 .speaker-with-bio {
   overflow: hidden;
   margin-bottom: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 300px;
 }
 .speaker-with-bio .speaker {
   width: 50%;
