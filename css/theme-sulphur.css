@@ -1243,6 +1243,10 @@ nav .container {
 .speaker {
   position: relative;
   overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+  text-align: center;
 }
 .speaker,
 .topic {
