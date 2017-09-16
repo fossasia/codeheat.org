@@ -1243,10 +1243,6 @@ nav .container {
 .speaker {
   position: relative;
   overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 300px;
-  text-align: center;
 }
 .speaker,
 .topic {
@@ -1328,6 +1324,14 @@ nav .container {
     width: 100%;
     padding-left: 0px;
   }
+}
+@media all and (max-width: 767px) {
+  .speaker-with-bio, .speaker {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    text-align: center;  
+  } 
 }
 .topics {
   position: relative;
