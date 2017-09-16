@@ -1304,10 +1304,6 @@ nav .container {
 .speaker-with-bio {
   overflow: hidden;
   margin-bottom: 36px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  max-width: 300px;
 }
 .speaker-with-bio .speaker {
   width: 50%;
@@ -1331,6 +1327,14 @@ nav .container {
   .speaker-with-bio .speaker-description {
     width: 100%;
     padding-left: 0px;
+  }
+}
+@media all and (max-width: 767px) {
+  .speaker-with-bio {
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   max-width: 300px;
   }
 }
 .topics {
