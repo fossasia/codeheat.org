@@ -1325,6 +1325,14 @@ nav .container {
     padding-left: 0px;
   }
 }
+@media all and (max-width: 767px) {
+   .speaker, .speaker-with-bio {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 300px;   
+  }     
+}
 .topics {
   position: relative;
   overflow: hidden;
