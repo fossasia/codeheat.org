@@ -1150,6 +1150,11 @@ nav .container {
     transform: translateY(0px);
   }
 }
+@media all and (min-width: 767px) and (max-width: 995px) {
+  .image-with-text .lead {
+      line-height: 23px;
+    }    
+}
 /*!
 // Promo Blocks
 // --------------------------------------------------*/
