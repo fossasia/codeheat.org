@@ -374,7 +374,7 @@ span a:hover {
 }
 p a,
 .text-link a {
-  color: #dcbe00 !important;
+  color: #f60808 !important;
   border-color: #dcbe00;
   padding-bottom: 2px;
 }
@@ -1208,10 +1208,10 @@ nav .container {
   -moz-transition: all 0.1s ease-out;
 }
 .block-left {
-  background-color: #dcbe00;
+  background-color: #f60808 !important;
 }
 .block-right {
-  background-color: #b39b00;
+  background-color: #f60808 !important;
   right: 0px;
 }
 @media all and (max-width: 768px) {
