@@ -1153,7 +1153,7 @@ nav .container {
 @media all and (min-width: 767px) and (max-width: 995px) {
   .image-with-text .lead {
       line-height: 23px;
-    }    
+    }
 }
 /*!
 // Promo Blocks
@@ -1335,8 +1335,8 @@ nav .container {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    max-width: 300px;   
-  }     
+    max-width: 300px;
+  }
 }
 .topics {
   position: relative;
@@ -1792,6 +1792,7 @@ p.question {
   margin-bottom: 36px;
   position: relative;
   overflow: hidden;
+  min-height: 550px !important;
 }
 .info-box img {
   display: block;
