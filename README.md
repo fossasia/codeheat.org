@@ -1,16 +1,20 @@
 # Codeheat.org website
 
-In the heat of the code is a coding contest run by FOSSASIA, friends and partners.
+In the Heat of the Code is a coding contest for FOSSASIA projects on GitHub.
 
 Official website: http://codeheat.org
 
-Development Workflow:->
+## Development Workflow:->
 
-Fixing issues
+### Fixing issues
 
-Step 1: Pick an issue to fix
+╒══════════════════╕
 
-After selecting the issue
+#### Step 1: Pick an issue to fix
+
+╘══════════════════╛
+
+### After selecting the issue
 
 1.Comment on the issue saying you are working on the issue.
 
@@ -18,7 +22,11 @@ After selecting the issue
 
 3.Updates or progress on the issue would be nice.
 
-Step 2: Coding Policy
+╒══════════════════╕
+
+#### Step 2: Coding Policy
+
+╘══════════════════╛
 
 Please help us follow the best practice to make it easy for the reviewer as well as the contributor. We want to focus on the code quality more than on managing pull request ethics.
 Single commit per pull request
@@ -28,10 +36,18 @@ The pull request will not get merged until and unless the commits are squashed. 
 If you don't know what does squashing of commits is read from here.
 If the PR is related to any front end change, please attach relevant screenshots in the pull request description
 
-Step 3: Submitting a PR
+╒══════════════════╕
+
+#### Step 3: Submitting a PR
+
+╘══════════════════╛
 
 Once a PR is opened, try and complete it within 2 weeks, or at least stay actively working on it. Inactivity for a long period may necessitate a closure of the PR. As mentioned earlier updates would be nice.
 
-Step 4: Code Review
+╒══════════════════╕
+
+#### Step 4: Code Review
+
+╘══════════════════╛
 
 Reviewer: A core team member will be assigned to the PR as its reviewer, who will approve your PR or he will suggest changes.
