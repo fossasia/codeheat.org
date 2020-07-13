@@ -1804,7 +1804,7 @@ p.question {
 .info-box .text-link {
   position: absolute;
   bottom: 12px;
-  right: 0px;
+  left: 0px;
 }
 .text-link a {
   display: inline-block;
