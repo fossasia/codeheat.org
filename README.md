@@ -21,12 +21,12 @@ After selecting the issue
 Step 2: Coding Policy
 
 Please help us follow the best practice to make it easy for the reviewer as well as the contributor. We want to focus on the code quality more than on managing pull request ethics.
-Single commit per pull request
+Single commit per pull request.
 For writing commit messages please adhere to the Commit style guidelines.
 Follow uniform design practices. The design language must be consistent throughout the app.
 The pull request will not get merged until and unless the commits are squashed. In case there are multiple commits on the PR, the commit author needs to squash them and not the maintainers cherrypicking and merging squashes.
 If you don't know what does squashing of commits is read from here.
-If the PR is related to any front end change, please attach relevant screenshots in the pull request description
+If the PR is related to any front end change, please attach relevant screenshots in the pull request description.
 
 Step 3: Submitting a PR
 
