@@ -32,7 +32,7 @@
 	<link href="css/pe-icon-7-stroke.min.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="css/theme-sulphur.css" rel="stylesheet" type="text/css" media="all" />
-	<link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/custom.css" rel="stylesheet" type="text/css" media="all" id = "theme"/>
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css"
 	    media="all">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
@@ -163,6 +163,13 @@
 									<i class="icon social_facebook"></i>
 								</a>
 							</li>
+							
+							<a class="inner-link">Theme</a>
+								<label class="switch">
+									<input type="checkbox" checked onclick="toggleDarkMode()" id="dark-toggle">
+									<span class="slider round"></span>
+								</label>
+								</li>
 						</ul>
 
 
@@ -341,7 +348,7 @@
              <span>Developer at FOSSASIA</span>
            </div>
          </div>
-				<div class="col-md-3 col-sm-6 speaker-column">
+				<div class="col-md-3 col-sm-6 col-md-offset-1 speaker-column">
           <div class="speaker">
             <div class="image-holder">
               <img class="background-image" alt="Suneet Srivastava" src="img/SuneetSrivastava.jpeg">
@@ -2152,5 +2159,6 @@
 	<script src="js/twitterfetcher.min.js"></script>
 	<script src="js/placeholders.min.js"></script>
 	<script src="js/scripts.js"></script>
+	<script src="js/darkTheme.js"></script>
 </body>
 </html>
