@@ -92,3 +92,8 @@
 .background-image {
   width: 300px;
 }
+@media all and (max-width: 767px) {
+  .footer .menu {
+    width: 100%;
+  }
+}
