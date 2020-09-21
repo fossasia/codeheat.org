@@ -92,3 +92,10 @@
 .background-image {
   width: 300px;
 }
+
+@media screen and (min-width: 375px) and (max-width: 812px)
+{
+  .footer .menu li a i {
+    left: 300px;
+  }
+}
