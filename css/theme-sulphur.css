@@ -1266,6 +1266,11 @@ nav .container {
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
 }
+@media all and (min-width:992px) and (max-width:1200px){
+  .speaker .hover-state{
+    width: 100%;
+  }
+}
 .speaker .image-holder {
   margin-bottom: 12px;
 }
