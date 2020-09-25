@@ -1273,6 +1273,11 @@ nav .container {
   display: block;
   font-size: 16px;
 }
+@media all and (min-width:992px) and (max-width:1200px){
+  .speaker span{
+    font-size: 13px;
+  }
+}
 .speaker-name {
   color: #333333;
 }
