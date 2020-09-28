@@ -90,5 +90,12 @@
 }
 
 .background-image {
-  width: 300px;
+  width: 100%;
+ 
+}
+.bg-image{
+  height:80hv;
+  background-image: url(../img/codeheat-friends.jpg);
+  background-size: 100% 100%;
+  position: relative;
 }
