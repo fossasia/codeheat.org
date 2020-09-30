@@ -1,3 +1,14 @@
+/* 
+ Contents:
+-----------------------------------------
+    1. Schedule
+    2. tweets
+    3. subscribe
+    4. newsletter
+    5. socailprofiles
+    6. sticky Navbar
+    7. sidebar
+*/
 .schedule a {
   /*color: #E12B00;*/
   border: none;
@@ -20,6 +31,8 @@
   text-decoration: none;
   border: none;
 }
+
+/* 2. Tweets */
 
 .tweets-feed {
   color: #FFFFFF;
@@ -47,9 +60,13 @@
   margin: 10px auto;
 }
 
+/*3. Subscribe */
+
 .subscribe-1 .email-subscribe {
   margin-bottom: 50px !important;
 }
+
+/* 4. Newsletter */
 .newsletter-name{
   padding-right: 0px;
 }
@@ -69,12 +86,16 @@
 .newsletter-submit input{
   border-radius: 0px 10px 10px 0px;
 }
+
+/* 6. Social profiles  */
 .social-profiles a i{
   transition: all .5s;
 }
 .social-profiles a:hover i{
   color: grey;
 }
+
+/* 7. Sticky NavBar */
 .sticky-nav .menu li a:hover {
   border-color: #C3BFBF;
   border-bottom-width: 2px;
@@ -82,6 +103,8 @@
   margin-bottom: 2px;
 }
 
+
+/* 8. sidebar */
 .sidebar-content .widget ul li a:hover{
   border-color: #C3BFBF;
   border-bottom-width: 2px;
