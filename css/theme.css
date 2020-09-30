@@ -1300,6 +1300,9 @@ nav .container {
 .speaker-with-bio {
   overflow: hidden;
   margin-bottom: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .speaker-with-bio .speaker {
   width: 50%;
