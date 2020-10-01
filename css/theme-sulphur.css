@@ -511,7 +511,7 @@ nav .container {
   margin-right: 32px;
   font-size: 11px;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   font-weight: 600;
   position: relative;
   top: 4px;
