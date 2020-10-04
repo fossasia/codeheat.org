@@ -1,0 +1,8 @@
+title: codeheat.org
+description: Join us and win a trip to the FOSSASIA OpenTechSummit in Singapore from March 17 - 19, 2017.
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
