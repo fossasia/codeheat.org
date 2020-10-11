@@ -530,6 +530,7 @@ nav .container {
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
+  letter-spacing: 0px;
 }
 .menu li a:hover {
   border-bottom: 2px solid #fff;
