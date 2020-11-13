@@ -1,37 +1,37 @@
-# Codeheat.org website
+# Codeheat.org Website
 
-In the heat of the code is a coding contest run by FOSSASIA, friends and partners.
+Codeheat is a coding contest held by FOSSASIA, friends and partners.
 
-Official website: http://codeheat.org
+**Official website**: http://codeheat.org
 
-Development Workflow:->
+## Local Installation
+### Steps
+* `git clone https://github.com/USERNAME/codeheat.org.git`
+* `cd codeheat.org`
 
-Fixing issues
+**Note :** If you want to contribute, first fork the original repository and clone the forked repository into your local machine followed by ```cd``` into the directory
+```sh
+git clone https://github.com/USERNAME/codeheat.org.git
+cd codeheat.org
+```
+* Install all the dependencies with `npm install`
+* Go to `index.html` and open with live server
 
-Step 1: Pick an issue to fix
+## Contributions Best Practices
 
-After selecting the issue
+### Commits
 
-1.Comment on the issue saying you are working on the issue.
+-   Write clear meaningful git commit messages (Do read [https://chris.beams.io/posts/git-commit/](https://chris.beams.io/posts/git-commit/))
+-   Make sure your PR's description contains GitHub's special keyword references that automatically close the related issue when the PR is merged. (More info at [https://github.com/blog/1506-closing-issues-via-pull-requests](https://github.com/blog/1506-closing-issues-via-pull-requests) )
+-   When you make very minor changes to a PR of yours (like for example fixing a failing Travis build or some small style corrections or minor changes requested by reviewers) make sure you squash your commits afterward so that you don't have an absurd number of commits for a very small fix. (Learn how to squash at [https://davidwalsh.name/squash-commits-git](https://davidwalsh.name/squash-commits-git) )
+-   When you're submitting a PR for a UI-related issue, it would be really awesome if you add a screenshot of your change or a link to a deployment where it can be tested out along with your PR. It makes it very easy for the reviewers and you'll also get reviews quicker.
 
-2.We expect you to discuss the approach either by commenting or in the gitter.
+### Feature Requests and Bug Reports
 
-3.Updates or progress on the issue would be nice.
+When you file a feature request or when you are submitting a bug report to the [issue tracker](https://github.com/fossasia/open-event-frontend/issues), make sure you add steps to reproduce it. Especially if that bug is some weird/rare one.
 
-Step 2: Coding Policy
+### Join the development
 
-Please help us follow the best practice to make it easy for the reviewer as well as the contributor. We want to focus on the code quality more than on managing pull request ethics.
-Single commit per pull request
-For writing commit messages please adhere to the Commit style guidelines.
-Follow uniform design practices. The design language must be consistent throughout the app.
-The pull request will not get merged until and unless the commits are squashed. In case there are multiple commits on the PR, the commit author needs to squash them and not the maintainers cherrypicking and merging squashes.
-If you don't know what does squashing of commits is read from here.
-If the PR is related to any front end change, please attach relevant screenshots in the pull request description
+-   Before you join development, please set up the project on your local machine, run it and go through the application completely. Press on any button you can find and see where it leads to. Explore. (Don't worry ... Nothing will happen to the app or to you due to the exploring :wink: Only thing that will happen is, you'll be more familiar with what is where and might even get some cool ideas on how to improve various aspects of the app.)
+-   If you would like to work on an issue, drop in a comment at the issue. If it is already assigned to someone, but there is no sign of any work being done, please feel free to drop in a comment so that the issue can be assigned to you if the previous assignee has dropped it entirely.
 
-Step 3: Submitting a PR
-
-Once a PR is opened, try and complete it within 2 weeks, or at least stay actively working on it. Inactivity for a long period may necessitate a closure of the PR. As mentioned earlier updates would be nice.
-
-Step 4: Code Review
-
-Reviewer: A core team member will be assigned to the PR as its reviewer, who will approve your PR or he will suggest changes.
