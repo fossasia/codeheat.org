@@ -92,15 +92,3 @@
 .background-image {
   width: 300px;
 }
-@media all and (max-width: 767px) {	
-  .footer .menu {
-  width: 100%;	
-  }
-}
-
-@media screen and (min-width: 922px) and (max-width: 1200px)
-{
-  .vertical-align {
-    right: 9%;
-  }
-}
