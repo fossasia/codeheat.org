@@ -1792,7 +1792,7 @@ p.question {
   margin-bottom: 36px;
   position: relative;
   overflow: hidden;
-  min-height: 550px !important;
+  height: 650px;
 }
 .info-box img {
   display: block;
@@ -1802,7 +1802,7 @@ p.question {
   margin-bottom: 12px;
 }
 .info-box .text-link {
-  position: absolute;
+  position: relative;
   bottom: 12px;
   right: 0px;
 }
