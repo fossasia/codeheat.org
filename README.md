@@ -1,7 +1,6 @@
 # Codeheat.org website
 
-In the heat of the code is a coding contest run by FOSSASIA, friends and partners.
-
+In the heat of the code is a coding contest run by FOSSASIA, friends, and partners.
 Official website: http://codeheat.org
 
 Development Workflow:->
@@ -30,7 +29,7 @@ If the PR is related to any front end change, please attach relevant screenshots
 
 Step 3: Submitting a PR
 
-Once a PR is opened, try and complete it within 2 weeks, or at least stay actively working on it. Inactivity for a long period may necessitate a closure of the PR. As mentioned earlier updates would be nice.
+Once a PR is opened, try and complete it within 2 weeks, or at least stay actively working on it. Inactivity for a long period may necessitate the closure of the PR. As mentioned earlier updates would be nice.
 
 Step 4: Code Review
 
