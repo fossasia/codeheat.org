@@ -318,6 +318,11 @@ $(window).load(function() {
         }, 500);
     }, 10);
 
+    // dynamically generating current year (Copyright)
+    $('.cur-year').each(function() {
+        $(this).text(new Date().getFullYear());
+    })
+
 
 });
 	//Sendy verify if email is empty
@@ -335,3 +340,4 @@ $(window).load(function() {
         return false;
     }
 });
+
