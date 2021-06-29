@@ -228,6 +228,7 @@ nav {
 }
 .show-content {
   opacity: 1 !important;
+  overflow-x: hidden;
 }
 .hide-loader {
   opacity: 0 !important;

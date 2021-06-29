@@ -30,6 +30,7 @@
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  right: 5%;
 }
 .vertical-align-cancel {
   top: 0px;
