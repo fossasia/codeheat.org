@@ -50,6 +50,41 @@
 .subscribe-1 .email-subscribe {
   margin-bottom: 50px !important;
 }
+.twitter-feed-box
+{
+  background-image: url("img/codeheat-friends.jpg");
+  background-size: cover;
+  height: 80vh;
+  overflow: hidden;
+}
+.twitter-feed
+{
+  position:relative ;
+  /* height: 100%; */
+}
+.top-border
+{
+  position: relative;
+}
+.top-border span
+{
+  display: block;
+  position: absolute;
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-left:2px;
+  padding-right:2px; 
+  border-radius:6px ;
+  width:fit-content;
+  top:5px ;
+  left:5px ;
+  
+}
+.twitter-feed i
+{
+  background-color: white;
+  border-radius:7px ;
+}
 .newsletter-name{
   padding-right: 0px;
 }
