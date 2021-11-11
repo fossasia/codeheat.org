@@ -13,7 +13,6 @@ $(document).ready(function() {
     });
 
     $('a').click(function() {
-        $('nav').toggleClass('open-menu');
         if ($(this).attr('href') === '#') {
             return false;
         }
