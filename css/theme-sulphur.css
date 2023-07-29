@@ -2311,3 +2311,8 @@ footer.classic .social-profiles {
   color: #333333;
   font-size: 20px;
 }
+@media screen and (min-width: 968px) and (max-width: 992px) {
+  .container{
+  width:100%;
+  }
+  }
