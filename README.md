@@ -2,7 +2,7 @@
 
 Codeheat is a coding contest held by FOSSASIA, friends and partners.
 
-**Official website**: http://codeheat.org
+**Official website**: https://codeheat.org
 
 ## Local Installation
 ### Steps
